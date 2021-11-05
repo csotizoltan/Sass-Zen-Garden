@@ -20,7 +20,7 @@ body {
   background-color: #eee9df;
   padding: 14px;
   margin-right: 8px;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 .sidebar li {
   font-family: "Ubuntu", sans-serif;
@@ -129,7 +129,7 @@ body {
   height: 385px;
   background-color: #333745e6;
   color: whitesmoke;
-  margin-top: 47px;
+  margin-top: 50px;
   margin-bottom: 70px;
   border-radius: 7px;
   line-height: 24px;
@@ -142,7 +142,7 @@ body {
   position: absolute;
   height: 50%;
   right: 5px;
-  top: 1045px;
+  top: 1047px;
   width: 29%;
   background-color: #ea2e49;
   color: white;
