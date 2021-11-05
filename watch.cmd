@@ -1,0 +1,1 @@
+npx sass --watch src/main.scss dist/main.css

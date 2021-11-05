@@ -1,0 +1,227 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Corben&display=swap");
+}
+
+body {
+  background-color: #F5F5F5;
+}
+
+.sidebar {
+  position: absolute;
+  height: 92%;
+  right: 0;
+  top: 2.5%;
+  width: 29%;
+  background-color: #eee9df;
+  padding: 14px;
+  margin-right: 8px;
+  border-radius: 8px;
+}
+.sidebar li {
+  font-family: "Ubuntu", sans-serif;
+  list-style-type: none;
+}
+.sidebar li a {
+  color: #292828;
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+  font-weight: 500;
+}
+.sidebar li a:hover {
+  color: #ea2e49;
+  font-variant: bold;
+}
+.sidebar h3 {
+  font-family: "Ubuntu", sans-serif;
+  color: #841e1e;
+  margin-top: 35px;
+  margin-bottom: 4px;
+}
+
+.intro {
+  padding: 14px;
+}
+.intro h1 {
+  display: inline-block;
+  background-color: #ea2e49;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: -10px;
+  border-radius: 8px;
+  padding: 0.5em 1em;
+  animation-name: title;
+  animation-duration: 5s;
+}
+@keyframes title {
+  from {
+    background-color: #ea2e49;
+  }
+  to {
+    background-color: #131d6cd4;
+  }
+}
+.intro h2 {
+  color: brown;
+  font-size: 1.7em;
+}
+.intro h3, .intro p {
+  padding: 14px;
+}
+
+.summary {
+  width: 58%;
+  background-color: #136c4bd4;
+  color: white;
+}
+.summary a {
+  color: #cfd6d6;
+  text-decoration: none;
+}
+
+.preamble {
+  width: 70%;
+  height: 300px;
+  background-color: #fefcf9;
+  border-radius: 20px;
+  border-left: 7px solid orangered;
+  border-right: 7px solid orangered;
+  border-top: 3px solid orangered;
+  border-bottom: 3px solid orangered;
+  margin-top: 50px;
+}
+.preamble h3 {
+  font-family: "Zen Antique", serif;
+  font-size: 1.5em;
+}
+.preamble p {
+  line-height: 21px;
+  margin-top: -18px;
+  font-family: "Zen Antique", serif;
+  font-size: 1.1em;
+}
+
+.main {
+  padding: 14px;
+}
+.main h3, .main p {
+  padding: 14px;
+}
+
+.explanation {
+  width: 70%;
+  background-color: #f6f4e8;
+  border-left: 7px solid #507a6f;
+  margin-left: 12%;
+}
+.explanation h3, .explanation p {
+  font-family: "Corben", cursive;
+  font-size: 1em;
+}
+
+.participation {
+  width: 70%;
+  height: 385px;
+  background-color: #333745e6;
+  color: whitesmoke;
+  margin-top: 47px;
+  margin-bottom: 70px;
+  border-radius: 7px;
+  line-height: 24px;
+}
+.participation a {
+  color: #89b82b;
+}
+
+.benefits {
+  position: absolute;
+  height: 50%;
+  right: 5px;
+  top: 1045px;
+  width: 29%;
+  background-color: #ea2e49;
+  color: white;
+  border-radius: 7px;
+  margin-left: 22%;
+  line-height: 28px;
+}
+.benefits p {
+  text-align: justify;
+}
+
+.requirements {
+  width: 70%;
+  background-color: #f5f5f5;
+  border-left: 7px solid #a7750a93;
+  margin-left: 14%;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-family: "Corben", cursive;
+}
+.requirements h3 {
+  font-family: "Corben", cursive;
+  color: #af360ad0;
+  font-size: 1.3em;
+}
+.requirements p {
+  font-family: "Corben", cursive;
+  color: #3c3343;
+  text-align: justify;
+}
+.requirements p a {
+  color: #39414194;
+  text-decoration: none;
+}
+.requirements p :last-child {
+  color: orangered;
+}
+
+footer {
+  background-color: #ea2e49;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 50px;
+  line-height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a:hover {
+  font-size: 1.5em;
+  color: #ecbdc3;
+  font-weight: 600;
+}
+
+@media print {
+  aside, footer {
+    display: none;
+  }
+
+  article {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  a:after {
+    content: "(" attr(href) ")";
+  }
+
+  @page {
+    margin: 2cm;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

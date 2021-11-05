@@ -1,0 +1,47 @@
+$defaultFont: 'Roboto', sans-serif;
+
+$textPadding: 14px;
+
+$mainBackgroundColor: #F5F5F5;
+
+$introTitleBackgroundColor: #ea2e49;
+$introTitleTextColor: white;
+$introFromBackgroundColor: $introTitleBackgroundColor;
+$introToBackgroundColor: #131d6cd4;
+$introH2TextColor: brown;
+
+$sidebarBackgroundColor: #eee9df;
+$sidebarH3TextColor: #841e1e;
+$sidebarLinkTextColor: #292828;
+$sidebarFont: 'Ubuntu', sans-serif;
+
+$summaryBackgroundColor: #136c4bd4;
+$summaryTextgroundColor: white;
+$summaryLinkColor: #cfd6d6;
+
+$preambleBackgroundColor: #fefcf9;
+$preambleBorderColor: orangered;
+$preambleH3Font: 'Zen Antique', serif;
+
+$explanationeBackgroundColor: #f6f4e8;
+$explanationeBorderColor: #507a6f;
+$explanationeFont: 'Corben', cursive;
+
+$participationBackgroundColor: #333745e6;
+$participationTextgroundColor: whitesmoke;
+$participationLinkColor: #89b82b;
+
+$benefitsBackgroundColor: #ea2e49;
+$benefitsTextColor: $summaryTextgroundColor;
+
+$requirementsBackgroundColor: #f5f5f5;
+$requirementsBorderColor: #a7750a93;
+$requirementsTextColor: #3c3343;
+$requirementsLinkColor: #39414194;
+$requirementsLastChildTextColor: $preambleBorderColor;
+$requirementsH3Font: #af360ad0;
+$requirementsFont: 'Corben', cursive;
+
+$footerBackgroundColor: #ea2e49;
+$footerLinkTextColor: $summaryTextgroundColor;
+$footerLinkHoverTextColor: #ecbdc3;

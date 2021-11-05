@@ -1,0 +1,1 @@
+npx sass --style=compressed src/main.scss dist/main.css
