@@ -1,13 +1,14 @@
 @use 'variables' as var;
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corben&display=swap');
+
+
 * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Corben&display=swap');
 }
 
 
@@ -18,7 +19,7 @@ body {
 
 .sidebar {
     position: absolute;
-    height: 92%;
+    height: 95%;
     right: 0;
     top: 2.5%;
     width: 29%;
@@ -30,12 +31,14 @@ body {
     li {
         font-family: var.$sidebarFont;
         list-style-type: none;
+        line-height: 23px;
 
         a {
             color: var.$sidebarLinkTextColor;
             font-family: var.$sidebarFont;
             text-decoration: none;
             font-weight: 500;
+            color: var.$sidebarTextColor;
         }
         
         a:hover {
@@ -116,14 +119,16 @@ body {
 
     h3 {
         font-family: var.$preambleH3Font;
-        font-size: 1.5em;
+        font-size: 1.4em;
+        margin-top: 10px;
     }
 
     p {
-        line-height: 21px;
+        line-height: 19px;
         margin-top: -18px;
         font-family: var.$preambleH3Font;
-        font-size: 1.1em;
+        font-size: 1.0em;
+        font-weight: lighter;
     }
 }
 
@@ -142,10 +147,17 @@ body {
     background-color: var.$explanationeBackgroundColor;
     border-left: 7px solid var.$explanationeBorderColor;
     margin-left: 12%;
+    color: var.$explanationeTextColor;
 
-    h3, p {
+    h3 {
+        font-family: var.$explanationeFont;
+        font-size: 1.2em;
+    }
+
+    p {
         font-family: var.$explanationeFont;
         font-size: 1.0em;
+        line-height: 1.5em;
     }
 }
 
@@ -170,7 +182,7 @@ body {
     position: absolute;
     height: 50%;
     right: 5px;
-    top: 1047px;
+    top: 1067px;
     width: 29%;
     background-color: var.$benefitsBackgroundColor;
     color: var.$benefitsTextColor;

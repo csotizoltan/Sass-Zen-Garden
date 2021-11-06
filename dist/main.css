@@ -1,10 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Corben&display=swap");
 * {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-  @import url("https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap");
-  @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
-  @import url("https://fonts.googleapis.com/css2?family=Corben&display=swap");
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 
 .sidebar {
   position: absolute;
-  height: 92%;
+  height: 95%;
   right: 0;
   top: 2.5%;
   width: 29%;
@@ -25,12 +25,14 @@ body {
 .sidebar li {
   font-family: "Ubuntu", sans-serif;
   list-style-type: none;
+  line-height: 23px;
 }
 .sidebar li a {
   color: #292828;
   font-family: "Ubuntu", sans-serif;
   text-decoration: none;
   font-weight: 500;
+  color: #5d5858;
 }
 .sidebar li a:hover {
   color: #ea2e49;
@@ -97,13 +99,15 @@ body {
 }
 .preamble h3 {
   font-family: "Zen Antique", serif;
-  font-size: 1.5em;
+  font-size: 1.4em;
+  margin-top: 10px;
 }
 .preamble p {
-  line-height: 21px;
+  line-height: 19px;
   margin-top: -18px;
   font-family: "Zen Antique", serif;
-  font-size: 1.1em;
+  font-size: 1em;
+  font-weight: lighter;
 }
 
 .main {
@@ -118,10 +122,16 @@ body {
   background-color: #f6f4e8;
   border-left: 7px solid #507a6f;
   margin-left: 12%;
+  color: #302c2c;
 }
-.explanation h3, .explanation p {
+.explanation h3 {
+  font-family: "Corben", cursive;
+  font-size: 1.2em;
+}
+.explanation p {
   font-family: "Corben", cursive;
   font-size: 1em;
+  line-height: 1.5em;
 }
 
 .participation {
@@ -142,7 +152,7 @@ body {
   position: absolute;
   height: 50%;
   right: 5px;
-  top: 1047px;
+  top: 1067px;
   width: 29%;
   background-color: #ea2e49;
   color: white;
@@ -156,7 +166,7 @@ body {
 
 .requirements {
   width: 70%;
-  background-color: #f5f5f5;
+  background-color: #f2f2f2;
   border-left: 7px solid #a7750a93;
   margin-left: 14%;
   margin-top: 80px;
